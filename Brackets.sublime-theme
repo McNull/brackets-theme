@@ -87,7 +87,7 @@
         "layer0.texture": "Theme - Brackets/Brackets/tab-close.png",
         "layer0.opacity": 1.0
     },
-    /* Tab dirty button
+    // Tab dirty button
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
@@ -109,8 +109,8 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
         "layer0.texture": "Theme - Brackets/Brackets/tab-dirty.png"
     },
-    */
-    /* Tab highlight button
+    
+    /* Tab highlight button 
     {
         "class": "tab_close_button",
         "settings": ["highlight_modified_tabs"],
@@ -146,12 +146,12 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [221, 221, 221]
+        "fg": [153, 153, 153]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "fg": [153, 153, 153]
+        "fg": [34, 34, 34]
     },
     {
         "class": "tab_label",
@@ -402,7 +402,7 @@
         "layer0.texture": "Theme - Brackets/Brackets/sidebar-bg.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1, 2, 1],
-        "content_margin": [0, 0, 0, 0]
+        "content_margin": [0, 8, 0, 0]
     },
     // Sidebar tree
     {
